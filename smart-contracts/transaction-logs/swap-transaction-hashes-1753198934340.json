@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-07-22T15:42:14.339Z",
+  "account": "0xC86A17ffbFC3d463A407B45d35D0cF7b525b6Be7",
+  "contract": "0x52F6b4e3652234569b4Fe75ACA64E26909d55536",
+  "totalAttempts": 3,
+  "successfulTransactions": 0,
+  "transactions": [
+    {
+      "testName": "SEI → USDT (No Slippage)",
+      "hash": "0x4562243d9cdb67c2ae94a64bcfa57fbd5066ec0cb37c4e590ade57341fbd739c",
+      "method": "swapSeiToTokenNoSlippage",
+      "amount": "0.01",
+      "token": "USDT",
+      "status": "confirmation_failed"
+    },
+    {
+      "testName": "SEI → WBTC (5% Slippage)",
+      "hash": "0x02c1d96fba38ca88ea6c44e6b54981a31d2b2a8aa08c4c768d7575999513eea0",
+      "method": "swapSeiToToken",
+      "amount": "0.01",
+      "token": "WBTC",
+      "status": "confirmation_failed"
+    },
+    {
+      "testName": "SEI → USDT (10% Slippage)",
+      "hash": "0x329812f3c6a3b8f54733094a0473a41de3466325190402947e35ed512d583700",
+      "method": "swapSeiToTokenWithSlippage",
+      "amount": "0.005",
+      "token": "USDT",
+      "status": "confirmation_failed"
+    }
+  ]
+}

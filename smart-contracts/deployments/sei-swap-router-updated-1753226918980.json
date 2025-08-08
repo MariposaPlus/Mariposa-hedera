@@ -1,0 +1,14 @@
+{
+  "network": "sei-mainnet",
+  "contractName": "SeiSwapRouter",
+  "contractAddress": "0xadECD4127c383761FD75A82E657Fda7d52AC8e38",
+  "deployerAddress": "0xC86A17ffbFC3d463A407B45d35D0cF7b525b6Be7",
+  "transactionHash": "0xff5388c48891f80e68620a2c1dd102b24bf060ed3ab9d67bff4df000724c4f87",
+  "blockNumber": null,
+  "timestamp": "2025-07-22T23:28:38.632Z",
+  "dragonSwapRouter": "0x11DA6463D6Cb5a03411Dbf5ab6f6bc3997Ac7428",
+  "dragonSwapFactory": "0x179D9a5592Bc77050796F7be28058c51cA575df4",
+  "wseiAddress": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+  "defaultFee": "3000",
+  "version": "v2-with-factory"
+}

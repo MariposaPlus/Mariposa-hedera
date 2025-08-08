@@ -1,0 +1,22 @@
+{
+  "network": "sei-mainnet",
+  "contractName": "SeiSwapRouterWithSlippage",
+  "contractAddress": "0x52F6b4e3652234569b4Fe75ACA64E26909d55536",
+  "deployerAddress": "0xC86A17ffbFC3d463A407B45d35D0cF7b525b6Be7",
+  "transactionHash": "0x737a155c23e7e3ca92448509e7aa52a69e7717b0aeb35a3f6b48fd5d1a5193f5",
+  "blockNumber": null,
+  "timestamp": "2025-07-22T15:32:25.249Z",
+  "features": {
+    "defaultSlippage": "5%",
+    "maxSlippage": "10%",
+    "builtInSlippageProtection": true,
+    "customUserSlippage": true
+  },
+  "configuration": {
+    "dragonSwapRouter": "0x11DA6463D6Cb5a03411Dbf5ab6f6bc3997Ac7428",
+    "dragonSwapFactory": "0x179D9a5592Bc77050796F7be28058c51cA575df4",
+    "wseiAddress": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+    "defaultSlippageBPS": "500",
+    "maxSlippageBPS": "1000"
+  }
+}

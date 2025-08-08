@@ -1,0 +1,34 @@
+{
+  "name": "smart-contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "node": "npx hardhat node",
+    "deploy:local": "npx hardhat ignition deploy ./ignition/modules/Lock.js",
+    "deploy:sei-devnet": "npx hardhat ignition deploy ./ignition/modules/Lock.js --network seiDevnet",
+    "deploy:sei-testnet": "npx hardhat ignition deploy ./ignition/modules/Lock.js --network seiTestnet",
+    "deploy:sei-mainnet": "npx hardhat ignition deploy ./ignition/modules/Lock.js --network seiMainnet",
+    "deploy:agentic-local": "npx hardhat run scripts/deploy-AgenticRouter.js",
+    "deploy:agentic-devnet": "npx hardhat run scripts/deploy-AgenticRouter.js --network seiDevnet",
+    "deploy:agentic-testnet": "npx hardhat run scripts/deploy-AgenticRouter.js --network seiTestnet",
+    "deploy:agentic-mainnet": "npx hardhat run scripts/deploy-AgenticRouter.js --network seiMainnet",
+    "verify:sei-mainnet": "npx hardhat verify --network seiMainnet",
+    "verify:sei-testnet": "npx hardhat verify --network seiTestnet",
+    "verify:sei-devnet": "npx hardhat verify --network seiDevnet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "hardhat": "^2.25.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "web3": "^4.16.0"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "contractAddress": "0x1008C94276027757EA33AC8C0f2BC3a31191ebD9",
+  "contractName": "AgenticRouter",
+  "sourceFile": "contracts/AgenticRouter.sol",
+  "network": "seiMainnet",
+  "explorerUrl": "https://seitrace.com/address/0x1008C94276027757EA33AC8C0f2BC3a31191ebD9#code",
+  "deploymentTransaction": "0x0f8d685eee0a233a5697f73cd922b45ca2ef32df3f6aea58f4a6187d44231807",
+  "deployer": "0xC86A17ffbFC3d463A407B45d35D0cF7b525b6Be7",
+  "constructorArguments": [
+    {
+      "name": "_swapRouter",
+      "type": "address",
+      "value": "0x11DA6463D6Cb5a03411Dbf5ab6f6bc3997Ac7428"
+    },
+    {
+      "name": "_factory", 
+      "type": "address",
+      "value": "0x179D9a5592Bc77050796F7be28058c51cA575df4"
+    },
+    {
+      "name": "_stablecoin",
+      "type": "address", 
+      "value": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1"
+    },
+    {
+      "name": "_wsei",
+      "type": "address",
+      "value": "0xe30fedd158a2e3b13e9badaeabafc5516e95e8c7"
+    },
+    {
+      "name": "_feeRecipient",
+      "type": "address",
+      "value": "0x1234567890123456789012345678901234567890"
+    },
+    {
+      "name": "_feeBps",
+      "type": "uint16",
+      "value": "30"
+    }
+  ],
+  "constructorArgumentsEncoded": [
+    "0x11DA6463D6Cb5a03411Dbf5ab6f6bc3997Ac7428",
+    "0x179D9a5592Bc77050796F7be28058c51cA575df4", 
+    "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+    "0xe30fedd158a2e3b13e9badaeabafc5516e95e8c7",
+    "0x1234567890123456789012345678901234567890",
+    "30"
+  ],
+  "verificationStatus": "verified",
+  "verificationDate": "2025-07-19T21:16:38.454Z",
+  "contractDetails": {
+    "swapRouter": {
+      "name": "DragonSwap V2 SwapRouter02",
+      "address": "0x11DA6463D6Cb5a03411Dbf5ab6f6bc3997Ac7428"
+    },
+    "factory": {
+      "name": "DragonSwap V2 Factory", 
+      "address": "0x179D9a5592Bc77050796F7be28058c51cA575df4"
+    },
+    "stablecoin": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "address": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+      "decimals": 6
+    },
+    "wsei": {
+      "name": "Wrapped SEI",
+      "symbol": "WSEI", 
+      "address": "0xe30fedd158a2e3b13e9badaeabafc5516e95e8c7",
+      "decimals": 18
+    },
+    "feeRecipient": "0x1234567890123456789012345678901234567890",
+    "feeBasisPoints": 30,
+    "feePercentage": "0.3%"
+  },
+  "supportedFeeTiers": [
+    {
+      "tier": 500,
+      "percentage": "0.05%"
+    },
+    {
+      "tier": 3000, 
+      "percentage": "0.3%"
+    },
+    {
+      "tier": 10000,
+      "percentage": "1%"
+    }
+  ],
+  "mainFunctions": [
+    {
+      "name": "swapSeiToToken",
+      "signature": "swapSeiToToken(address,uint256,address,uint256)",
+      "description": "Swap SEI for any token with fee collection"
+    },
+    {
+      "name": "swapTokenToToken", 
+      "signature": "swapTokenToToken(address,address,uint256,uint256,address,uint256)",
+      "description": "Swap any token for any other token with fee collection"
+    },
+    {
+      "name": "swapTokenToSei",
+      "signature": "swapTokenToSei(address,uint256,uint256,address,uint256)", 
+      "description": "Swap any token for SEI with fee collection"
+    },
+    {
+      "name": "registerAgent",
+      "signature": "registerAgent(address,bool)",
+      "description": "Register or unregister an agent (admin only)"
+    },
+    {
+      "name": "getBestFeeTier",
+      "signature": "getBestFeeTier(address,address)",
+      "description": "Get the optimal fee tier for a token pair"
+    },
+    {
+      "name": "getOptimalPath",
+      "signature": "getOptimalPath(address,address)",
+      "description": "Get the optimal swap path for token pair"
+    }
+  ],
+  "dragonswapV2Integration": {
+    "version": "V2",
+    "protocol": "DragonSwap",
+    "features": [
+      "Concentrated Liquidity",
+      "Multiple Fee Tiers", 
+      "Smart Routing",
+      "Gas Optimization",
+      "Direct and Multi-hop Swaps"
+    ]
+  },
+  "verification": {
+    "hardhatCommand": "npx hardhat verify --network seiMainnet 0x1008C94276027757EA33AC8C0f2BC3a31191ebD9 \"0x11DA6463D6Cb5a03411Dbf5ab6f6bc3997Ac7428\" \"0x179D9a5592Bc77050796F7be28058c51cA575df4\" \"0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1\" \"0xe30fedd158a2e3b13e9badaeabafc5516e95e8c7\" \"0x1234567890123456789012345678901234567890\" 30",
+    "status": "already_verified",
+    "explorer": "SeiTrace"
+  }
+} 

@@ -1,0 +1,30 @@
+{
+  "name": "dragonswap-typescript-test",
+  "version": "1.0.0",
+  "description": "TypeScript test for DragonSwap SEI integration",
+  "main": "test-sei-usdt-swap.ts",
+  "scripts": {
+    "test": "ts-node test-sei-usdt-swap.ts",
+    "test:sei-usdt": "ts-node test-sei-usdt-swap.ts",
+    "compile": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "ethers": "^6.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "dragonswap",
+    "sei",
+    "defi",
+    "typescript",
+    "ethers"
+  ],
+  "author": "Mariposa Team",
+  "license": "MIT"
+}

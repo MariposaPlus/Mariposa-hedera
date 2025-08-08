@@ -1,0 +1,23 @@
+{
+  "network": "sei-mainnet",
+  "contractName": "SeiSwapRouterMulticall",
+  "contractAddress": "0xE75342133B54f28c410D972fc54d26711d72B438",
+  "deployerAddress": "0xC86A17ffbFC3d463A407B45d35D0cF7b525b6Be7",
+  "transactionHash": "0x774883a3d4da832ef22412ae2c82d47b10b38c67eafd0a9fb02620c1808702c0",
+  "blockNumber": null,
+  "timestamp": "2025-07-22T23:06:38.473Z",
+  "features": {
+    "multicallSupport": true,
+    "methodDiscovery": "From DragonSwap app investigation",
+    "exactInputSingleSelector": "0x472b43f3",
+    "refundETHSelector": "0x12210e8a",
+    "multicallSelector": "0xac9650d8"
+  },
+  "configuration": {
+    "dragonSwapRouter": "0x11DA6463D6Cb5a03411Dbf5ab6f6bc3997Ac7428",
+    "wseiAddress": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+    "defaultSlippageBPS": "500",
+    "exactInputSelector": "0x472b43f3",
+    "refundETHSelector": "0x12210e8a"
+  }
+}

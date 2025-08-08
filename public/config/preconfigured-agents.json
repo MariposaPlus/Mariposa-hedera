@@ -1,0 +1,172 @@
+[
+  {
+    "id": "dca-expert",
+    "name": "DCA Expert Agent",
+    "description": "Specialized in Dollar Cost Averaging strategies with optimized entry points and risk management",
+    "icon": "TrendingUp",
+    "color": "from-green-400 to-emerald-500",
+    "features": ["Smart DCA Timing", "Risk-Adjusted Amounts", "Multi-Asset DCA", "Market Condition Analysis"],
+    "strategy": "DCA",
+    "configuration": {
+      "defaultBudget": 500,
+      "frequency": "weekly",
+      "riskTolerance": "conservative",
+      "preferredTokens": ["BTC", "ETH"]
+    },
+    "expertise": "Dollar Cost Averaging",
+    "specialty": "Reduces market volatility impact through systematic investing"
+  },
+  {
+    "id": "memecoin-expert",
+    "name": "Memecoin Expert Agent",
+    "description": "Expert in identifying and trading memecoins with social sentiment analysis and trend detection",
+    "icon": "Zap",
+    "color": "from-purple-400 to-pink-500",
+    "features": ["Social Sentiment Analysis", "Trend Detection", "Quick Entry/Exit", "Community Monitoring"],
+    "strategy": "SWING_TRADING",
+    "configuration": {
+      "defaultBudget": 200,
+      "frequency": "hourly",
+      "riskTolerance": "aggressive",
+      "preferredTokens": ["DOGE", "SHIB", "PEPE", "FLOKI"]
+    },
+    "expertise": "Memecoin Trading",
+    "specialty": "Capitalizes on viral trends and social media momentum"
+  },
+  {
+    "id": "action-bot",
+    "name": "Action Bot Agent",
+    "description": "Fully automated trading bot that executes trades based on predefined strategies and market conditions",
+    "icon": "Bot",
+    "color": "from-blue-400 to-indigo-500",
+    "features": ["Automated Trading", "Real-time Execution", "Stop Loss Management", "Profit Taking"],
+    "strategy": "SWING_TRADING",
+    "configuration": {
+      "defaultBudget": 1000,
+      "frequency": "continuous",
+      "riskTolerance": "moderate",
+      "preferredTokens": ["BTC", "ETH", "SOL", "ADA"]
+    },
+    "expertise": "Automated Trading",
+    "specialty": "Executes trades automatically without manual intervention"
+  },
+  {
+    "id": "defi-yield-expert",
+    "name": "DeFi Yield Expert",
+    "description": "Maximizes yields across DeFi protocols with advanced yield farming and liquidity provision strategies",
+    "icon": "Zap",
+    "color": "from-yellow-400 to-orange-500",
+    "features": ["Yield Optimization", "LP Management", "Gas Optimization", "Protocol Analysis"],
+    "strategy": "YIELD_FARMING",
+    "configuration": {
+      "defaultBudget": 2000,
+      "frequency": "daily",
+      "riskTolerance": "moderate",
+      "preferredTokens": ["ETH", "USDC", "DAI", "WETH", "USDT"]
+    },
+    "expertise": "DeFi Yield Farming",
+    "specialty": "Optimizes returns through strategic liquidity provision"
+  },
+  {
+    "id": "security-guardian",
+    "name": "Security Guardian",
+    "description": "Advanced security monitoring with threat detection and wallet protection features",
+    "icon": "Shield",
+    "color": "from-red-400 to-orange-500",
+    "features": ["24/7 Monitoring", "Threat Detection", "Transaction Analysis", "Wallet Security"],
+    "strategy": "SECURITY_MONITORING",
+    "configuration": {
+      "defaultBudget": 0,
+      "frequency": "continuous",
+      "riskTolerance": "conservative",
+      "preferredTokens": []
+    },
+    "expertise": "Security Monitoring",
+    "specialty": "Protects your assets from threats and suspicious activities"
+  },
+  {
+    "id": "portfolio-manager",
+    "name": "Portfolio Manager",
+    "description": "Intelligent portfolio rebalancing with advanced asset allocation and risk management",
+    "icon": "Brain",
+    "color": "from-indigo-400 to-purple-500",
+    "features": ["Auto Rebalancing", "Risk Assessment", "Asset Allocation", "Performance Tracking"],
+    "strategy": "PORTFOLIO_REBALANCING",
+    "configuration": {
+      "defaultBudget": 1500,
+      "frequency": "weekly",
+      "riskTolerance": "moderate",
+      "preferredTokens": ["BTC", "ETH", "ADA", "DOT", "SOL"]
+    },
+    "expertise": "Portfolio Management",
+    "specialty": "Maintains optimal portfolio balance across market conditions"
+  },
+  {
+    "id": "altcoin-hunter",
+    "name": "Altcoin Hunter",
+    "description": "Discovers and analyzes promising altcoins with fundamental and technical analysis",
+    "icon": "Target",
+    "color": "from-cyan-400 to-blue-500",
+    "features": ["Gem Discovery", "Fundamental Analysis", "Technical Signals", "Early Entry Detection"],
+    "strategy": "SWING_TRADING",
+    "configuration": {
+      "defaultBudget": 800,
+      "frequency": "daily",
+      "riskTolerance": "aggressive",
+      "preferredTokens": ["SOL", "AVAX", "MATIC", "LINK", "UNI"]
+    },
+    "expertise": "Altcoin Research",
+    "specialty": "Identifies high-potential altcoins before mainstream adoption"
+  },
+  {
+    "id": "nft-trader",
+    "name": "NFT Trading Expert",
+    "description": "Specialized in NFT market analysis and trading with collection tracking and rarity analysis",
+    "icon": "Brain",
+    "color": "from-pink-400 to-purple-500",
+    "features": ["Rarity Analysis", "Floor Price Tracking", "Collection Monitoring", "Trend Identification"],
+    "strategy": "ANALYTICS",
+    "configuration": {
+      "defaultBudget": 1200,
+      "frequency": "daily",
+      "riskTolerance": "aggressive",
+      "preferredTokens": ["ETH", "SOL"]
+    },
+    "expertise": "NFT Trading",
+    "specialty": "Navigates NFT markets with data-driven insights"
+  },
+  {
+    "id": "whale-tracker",
+    "name": "Whale Tracker",
+    "description": "Monitors whale movements and large transactions to identify market opportunities",
+    "icon": "TrendingUp",
+    "color": "from-emerald-400 to-teal-500",
+    "features": ["Whale Monitoring", "Large Transaction Alerts", "Flow Analysis", "Market Impact Assessment"],
+    "strategy": "ANALYTICS",
+    "configuration": {
+      "defaultBudget": 0,
+      "frequency": "continuous",
+      "riskTolerance": "moderate",
+      "preferredTokens": ["BTC", "ETH", "USDC", "USDT"]
+    },
+    "expertise": "Market Analysis",
+    "specialty": "Tracks institutional and whale movements for strategic insights"
+  },
+  {
+    "id": "arbitrage-expert",
+    "name": "Arbitrage Expert",
+    "description": "Identifies and executes arbitrage opportunities across different exchanges and DEXs",
+    "icon": "Zap",
+    "color": "from-orange-400 to-red-500",
+    "features": ["Cross-Exchange Analysis", "Price Discrepancy Detection", "Quick Execution", "Profit Optimization"],
+    "strategy": "SWING_TRADING",
+    "configuration": {
+      "defaultBudget": 3000,
+      "frequency": "continuous",
+      "riskTolerance": "moderate",
+      "preferredTokens": ["BTC", "ETH", "USDC", "USDT", "SOL"]
+    },
+    "expertise": "Arbitrage Trading",
+    "specialty": "Captures risk-free profits from price differences across markets"
+  }
+] 
